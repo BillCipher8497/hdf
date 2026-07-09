@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-birch: #f4f6ef;
+  --color-ink: #0d1f17;
+  --color-canopy: #143728;
+  --color-fern: #3e7c59;
+  --color-sap: #9ee64b;
+  --color-mist: #dce5d6;
+
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-body: "Sora", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-birch text-ink font-body antialiased;
+  font-size: 15px;
+}
+
+::selection { background: var(--color-sap); color: var(--color-ink); }
+
+:focus-visible {
+  outline: 2px solid var(--color-fern);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Animated gradient, used only on the CTA band */
+.sap-gradient {
+  background: linear-gradient(120deg, #143728, #3e7c59, #143728);
+  background-size: 200% 200%;
+  animation: drift 9s ease infinite;
+}
+@keyframes drift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Animated underline for nav + inline links */
+.hx-link { position: relative; }
+.hx-link::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -3px;
+  height: 2px; width: 100%;
+  background: var(--color-sap);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .35s cubic-bezier(.22,1,.36,1);
+}
+.hx-link:hover::after,
+.hx-link[aria-current="page"]::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
