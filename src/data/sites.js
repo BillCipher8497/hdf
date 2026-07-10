@@ -54,7 +54,7 @@ export const SITES = [
     org: "Peneza Hospital",
     type: "Healthcare provider",
     location: "Kenya",
-    url: "https://penezahospitalkenya.netlify.app/",
+    url: "https://penezahospital.org",
     screenshot: "/images/peneza.png",
     hex: "#3462a8",
     description:
@@ -80,7 +80,7 @@ export const SITES = [
     slug: "kalavaibhav",
     name: "Kalavaibhav Sevabhavi Sanstha",
     org: "Kalavaibhav Sevabhavi Sanstha",
-    type: "Disability arts nonprofit",
+    type: "Disability arts school",
     location: "India",
     url: "https://funcraftltd.netlify.app/",
     screenshot: "/images/funcraft.png",
