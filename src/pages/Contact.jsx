@@ -8,6 +8,9 @@ import HexChip from '../components/HexChip.jsx'
 // https://formsubmit.co/ajax/hello@hexadecimalforest.com
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/arvin.karve@gmail.com'
 
+const UPDATE_REQUEST_FORM =
+  'https://docs.google.com/forms/d/e/1FAIpQLSdwDdvcWv-1HoIAcNseiZrQdxmXR7bAnneb6zVMqzR090cK7g/viewform?usp=publish-editor'
+
 const FIELDS = [
   { id: 'name', label: 'Your name', type: 'text', placeholder: 'Jensen Huang' },
   { id: 'email', label: 'Email', type: 'email', placeholder: 'you@organization.org' },
@@ -62,6 +65,31 @@ export default function Contact() {
             media, branding, dashboards — and anything else digital you can
             think of. Tell us what you need.
           </p>
+        </Reveal>
+
+        <Reveal delay={0.08}>
+          <motion.a
+            href={UPDATE_REQUEST_FORM}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-10 flex flex-col items-start justify-between gap-4 rounded-2xl border-2 border-fern/40 bg-fern/5 p-6 transition-colors hover:border-fern hover:bg-fern/10 sm:flex-row sm:items-center"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.99 }}
+          >
+            <div>
+              <HexChip hex="#3e7c59" label="existing clients" />
+              <h2 className="mt-3 font-display text-xl font-semibold sm:text-2xl">
+                Client update requests
+              </h2>
+              <p className="mt-1.5 max-w-md text-sm text-ink/70">
+                Already have a site with us? Request content changes, updates, or new
+                assets through our dedicated form.
+              </p>
+            </div>
+            <span className="shrink-0 rounded-full bg-ink px-6 py-3 font-mono text-sm text-birch">
+              Open form →
+            </span>
+          </motion.a>
         </Reveal>
 
         <AnimatePresence mode="wait">
