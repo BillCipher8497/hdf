@@ -6,7 +6,7 @@ export const TEAM = [
     name: "Arvin Karve",
     role: "Founder & Lead Engineer",
     hex: "#9ee64b",
-    photo: "/images/team/arvin.jpg",
+    photo: "/images/team/arvin.jpeg",
     linkedin: "https://www.linkedin.com/in/arvin-karve-b70974315/", // ← replace
     bio: "Software engineer and student at NCSSM",
     focus: ["Engineering", "Design systems", "Client delivery"],
@@ -15,7 +15,7 @@ export const TEAM = [
     name: "Saicharan Mudium",
     role: "Founder & Lead Engineer",
     hex: "#3e7c59",
-    photo: "/images/team/saicharan.jpg",
+    photo: "/images/team/saicharan.jpeg",
     linkedin: "https://www.linkedin.com/in/saicharan-mudium-05301b340/", // ← replace
     bio: "Engineer and student at NCSSM",
     focus: ["Engineering", "Design systems", "Client delivery"],
