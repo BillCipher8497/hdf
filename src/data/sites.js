@@ -90,11 +90,39 @@ export const SITES = [
     stack: ["Netlify", "FormSubmit"],
     outcome: "Completed and delivered",
   },
+  {
+    slug: "communitycare",
+    name: "Community Care Foundation",
+    org: "Community Care Foundation",
+    type: "HIV/AIDS awareness nonprofit",
+    location: "South Africa",
+    url: "https://communitycarecapetown.org/",
+    screenshot: "/images/communitycare.png",
+    hex: "#c0392b",
+    description:
+      "A site for a Cape Town foundation working on HIV/AIDS awareness, prevention, and education, with a focus on protecting adolescent girls. A warm photo-led hero, clear program, impact, and gallery pages, and prominent donation and 'Support Our Work' calls-to-action.",
+    stack: ["Netlify"],
+    outcome: "Completed and delivered.",
+  },
+  {
+    slug: "chantalcoaching",
+    name: "Chantal Ferbrache Coaching",
+    org: "Chantal Ferbrache Coaching",
+    type: "Women's coaching practice",
+    location: "Netherlands",
+    url: "https://chantalcoaching.netlify.app/",
+    screenshot: "/images/chantalcoaching.png",
+    hex: "#3b1f3f",
+    description:
+      "A site for a coaching practice built around women's transformation — an editorial serif headline over a community photo, with pages for programs, community, and support, and a persistent 'Book a Session' call-to-action.",
+    stack: ["Netlify"],
+    outcome: "Completed and delivered.",
+  },
 ];
 
 export const STATS = [
-  { value: 6, suffix: "+", label: "Organizations served" },
-  { value: 4, suffix: "", label: "Countries" },
+  { value: 8, suffix: "+", label: "Organizations served" },
+  { value: 6, suffix: "", label: "Countries" },
   { value: 100, suffix: "%", label: "Sustainable" },
   { value: 1, suffix: "s", label: "Median load time", prefix: "<" },
 ];
