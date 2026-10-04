@@ -118,10 +118,38 @@ export const SITES = [
     stack: ["Netlify"],
     outcome: "Completed and delivered.",
   },
+  {
+    slug: "cityhillchristianschool",
+    name: "City Hill Christian School",
+    org: "City Hill Christian School",
+    type: "Faith-based secondary school",
+    location: "Uganda",
+    url: "https://cityhillchristianschool.netlify.app/",
+    screenshot: "/images/cityhill.png",
+    hex: "#8c1d1d",
+    description:
+      "A site for an O & A Level Christian secondary school in Fort Portal — academics, sports, and impact pages alongside a gallery and a fundraising/support path, with direct contact lines for the Resident Director, Principal, and Accountant. Built around six core values and a mission to transform young lives through holistic, biblical education.",
+    stack: ["Netlify"],
+    outcome: "Completed and delivered.",
+  },
+  {
+    slug: "ardiuganda",
+    name: "ARDI Uganda",
+    org: "African Rural Development Initiatives",
+    type: "Community-based development organization",
+    location: "Uganda",
+    url: "https://ardiuganda.netlify.app/",
+    screenshot: "/images/ardi.png",
+    hex: "#4a7c3c",
+    description:
+      "A site for a community-based organization in Manafwa district supporting teenage mothers, women, and children across three rural sub-counties — eight programs including the flagship Goats Project (a cyclical lending model), adult literacy, tailoring, and health education, told through community-owned impact stories.",
+    stack: ["Netlify"],
+    outcome: "Completed and delivered.",
+  },
 ];
 
 export const STATS = [
-  { value: 8, suffix: "+", label: "Organizations served" },
+  { value: 10, suffix: "+", label: "Organizations served" },
   { value: 6, suffix: "", label: "Countries" },
   { value: 100, suffix: "%", label: "Sustainable" },
   { value: 1, suffix: "s", label: "Median load time", prefix: "<" },
