@@ -14,29 +14,11 @@ export const TEAM = [
   {
     name: "Saicharan Mudium",
     role: "Founder & Lead Engineer",
-    hex: "#3e7c59",
+    hex: "#001a00",
     photo: "/images/team/saicharan.jpeg",
     linkedin: "https://www.linkedin.com/in/saicharan-mudium-05301b340/", // ← replace
     bio: "Engineer and student at NCSSM",
     focus: ["Engineering", "Design systems", "Client delivery"],
-  },
-  {
-    name: "Akshar Desai",
-    role: "Junior Developer",
-    hex: "#4b8ae6",
-    photo: null,
-    linkedin: null, // ← replace
-    bio: "Junior at NCSSM",
-    focus: ["Engineering"],
-  },
-  {
-    name: "Atul Nitin",
-    role: "Junior Developer",
-    hex: "#e6a23c",
-    photo: null,
-    linkedin: null, // ← replace
-    bio: "Junior at NCSSM",
-    focus: ["Engineering"],
   },
   {
     name: "Ibrahim",
@@ -73,6 +55,24 @@ export const TEAM = [
     linkedin: null, // ← replace
     bio: "Hospital director leading operations in Kenya and Uganda",
     focus: ["Operations", "Healthcare"],
+  },
+  {
+    name: "Akshar Desai",
+    role: "Junior Developer",
+    hex: "#4b8ae6",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Junior at NCSSM",
+    focus: ["Engineering"],
+  },
+  {
+    name: "Atul Nitin",
+    role: "Junior Developer",
+    hex: "#e6a23c",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Junior at NCSSM",
+    focus: ["Engineering"],
   },
 ];
 
