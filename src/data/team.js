@@ -20,6 +20,60 @@ export const TEAM = [
     bio: "Engineer and student at NCSSM",
     focus: ["Engineering", "Design systems", "Client delivery"],
   },
+  {
+    name: "Akshar Desai",
+    role: "Junior Developer",
+    hex: "#4b8ae6",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Junior at NCSSM",
+    focus: ["Engineering"],
+  },
+  {
+    name: "Atul Nitin",
+    role: "Junior Developer",
+    hex: "#e6a23c",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Junior at NCSSM",
+    focus: ["Engineering"],
+  },
+  {
+    name: "Ibrahim",
+    role: "International IT",
+    hex: "#6c5ce7",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Based in Uganda, supports international IT operations",
+    focus: ["IT Operations"],
+  },
+  {
+    name: "Emma Kauhka",
+    role: "Client Acquisition",
+    hex: "#e65b7c",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Based in Uganda with EEHEO, helps spread the word and bring on new clients",
+    focus: ["Client Acquisition", "Outreach"],
+  },
+  {
+    name: "Sharvari Joshi",
+    role: "Lead, Indian Operations",
+    hex: "#d1495b",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Economist based in Pune, Maharashtra, leading Indian operations",
+    focus: ["Operations", "Economics"],
+  },
+  {
+    name: "Susan Akello",
+    role: "Lead, Kenya & Uganda Operations",
+    hex: "#1f7a6c",
+    photo: null,
+    linkedin: null, // ← replace
+    bio: "Hospital director leading operations in Kenya and Uganda",
+    focus: ["Operations", "Healthcare"],
+  },
 ];
 
 // Footer / global links
